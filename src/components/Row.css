@@ -1,0 +1,36 @@
+.row {
+  margin-bottom: 20px;
+}
+
+.posters_container {
+  position: relative;
+  margin: auto;
+  width: 98% ;
+  display: flex;
+  padding: 10px 0px 10px 0px;
+  overflow: auto;
+}
+
+.poster img {
+  height: 250px;
+}
+
+.poster {
+  padding: 0 7px 0 7px;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+.poster:hover {
+  transform: scale(1.08);
+}
+
+.row h2 {
+  text-align: left;
+  padding: 0px 0px 0px 30px;
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

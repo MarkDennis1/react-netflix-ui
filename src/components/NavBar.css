@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 15px 0px;
+  z-index: 2;
+}
+
+.nav_black {
+  transition: all 1000ms;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.nav img {
+  mix-blend-mode: lighten;
+  height: 35px;
+  padding: 0px 30px;
+  cursor: pointer;
+}
